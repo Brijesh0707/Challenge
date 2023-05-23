@@ -1,0 +1,185 @@
+/* navbar */
+
+.nav-link{
+    font-weight: 450 !important;
+    color: black !important;
+    padding-right: 50px !important;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#talk{
+    width: 150px;
+    height: 50px;
+    border: 2px solid blue;
+    border-radius: 2px;
+    color: blue;
+    background-color: white;
+}
+.navbar{
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+
+/* home */
+.nav{
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 99;
+}
+.text1{
+    padding-left: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* cards */
+#text2 h1{
+    font-size: 55px;
+    font-weight: 400;
+}
+#text2 h4{
+    font-size: 20px;
+    font-weight: 350;
+}
+
+#web1{
+    margin-left: 40px;
+    padding-left: 40px;
+    width: 600px;
+}
+#web2{
+    margin-left: 40px;
+    padding-left: 40px;
+    width: 600px;
+}
+#web3{
+    margin-left: 40px;
+    padding-left: 40px;
+    width: 600px;
+}
+#web4{
+    margin-left: 40px;
+    padding-left: 40px;
+    width: 600px;
+}
+
+#arrow{
+    margin-left: 20px;
+}
+#AI{
+    width: 350px;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 26px;
+    font-weight: 500;
+    transition: ease-in-out 0.2s;
+}
+#AI:hover{
+    width: 350px;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 26px;
+    font-weight: 500;
+    color: gray;
+}
+#AI2{
+    width: 350px;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 26px;
+    font-weight: 500;
+    transition: ease-in-out 0.2s;
+}
+#AI2:hover{
+    width: 350px;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 26px;
+    font-weight: 500;
+    color: gray;
+}
+#hide_show{
+    display: none;
+}
+
+@media (max-width: 450px) {
+    #hide_show{
+        display: block;
+    }
+    #web1{
+       
+        width: 407px;
+     
+        margin-left: -9px;
+        margin-top: -60px;
+        
+    }
+    #web2{
+       
+        width: 450px;
+     
+        margin-left: -50px;
+        margin-top: -60px;
+        
+    }
+    #web3{
+       
+        width: 450px;
+     
+        margin-left: -50px;
+        margin-top: -60px;
+        
+    }
+    #web4{
+       
+        width: 450px;
+     
+        margin-left: -50px;
+        margin-top: -60px;
+    }
+    #hide01{
+        display: none;
+    }
+    #AI{
+        display: none;
+    }
+    #text2 h1{
+        font-size: 35px;
+        font-weight: 400;
+    }
+    #text2 h4{
+        font-size: 10px;
+        font-weight: 350;
+    }
+    #small{
+        font-size: 17px;
+        padding-top: 10px;
+    }
+    #AI2{
+        color: blue;
+    }
+   
+  }
